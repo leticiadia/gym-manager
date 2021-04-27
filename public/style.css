@@ -61,10 +61,10 @@ header{
 .card{
     background-color: rgba(255, 255, 255, .1);
     width: 800px;
-    height: 500px;
+    min-height: 500px;
 
     /* Espaçamento ao centro */
-    margin: 45px auto;
+    margin: 16px auto;
 
     /* Grid dividido ao meio */
     display: grid;
@@ -81,7 +81,7 @@ header{
 }
 
 .section-image{
-    background: url(https://source.unsplash.com/collection/10552289/500x500) no-repeat;   
+    background: url(https://source.unsplash.com/collection/10552289/500x610) no-repeat;   
     border-radius: 15px;
 }
 
@@ -96,6 +96,84 @@ header{
     }
 }
 
+/* DETALHES */
+
+.details{
+    padding: 32px;
+}
+
+.details .item{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 16px 0;
+}
+
+.details .item:last-child{
+    border: none;
+}
+
+.details h3, 
+.details .item div:nth-child(1){
+    color: #777;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+}
+
+.details .item div:nth-child(2){
+    color: #555;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.details h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #111;
+}
+
+.details .item span{
+    padding: 8px 16px;
+    background-color: rgb(255, 211, 0, .7);
+    border-radius: 10px;
+    color: rgba(85, 85, 85, .9);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    margin-right: 4px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+/* FORMULÁRIO */
+input{
+    width: 100%;
+    outline: none;
+    color: #111;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="radio"]{
+    width: initial;
+    margin-right: 4px;
+}
+
+input::placeholder{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+button[type="submit"]{
+    padding: 8px 32px;
+    background-color: #FFD300;
+    border-radius: 4px;
+    margin-top: 16px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
 
 
 
