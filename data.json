@@ -1,0 +1,28 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "https://www.rocketseat.com",
+      "name": "Diana",
+      "birth": "2020-08-05",
+      "gender": "F",
+      "services": "Frontend Developer",
+      "created_at": 1619555081254
+    },
+    {
+      "avatar_url": "https://www.rocketseat.com",
+      "name": "Lika",
+      "birth": 1295827200000,
+      "gender": "F",
+      "services": "Gato de estimação",
+      "created_at": 1619555292976
+    },
+    {
+      "avatar_url": "https://www.google.com",
+      "name": "Lika",
+      "birth": 1300924800000,
+      "gender": "F",
+      "services": "Gato de estimação",
+      "created_at": 1619555412148
+    }
+  ]
+}
