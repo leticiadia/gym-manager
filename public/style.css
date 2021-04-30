@@ -60,7 +60,7 @@ header{
 
 .card{
     background-color: rgba(255, 255, 255, .1);
-    width: 800px;
+    width: 1000px;
     min-height: 500px;
 
     /* Espaçamento ao centro */
@@ -82,6 +82,7 @@ header{
 
 .section-image{
     background: url(https://source.unsplash.com/collection/10552289/500x610) no-repeat;
+    border-radius: 15px;
 }
 
 .avatar{
@@ -149,11 +150,11 @@ header{
 }
 
 /* FORMULÁRIO */
-input{
+input, select{
     width: 100%;
     outline: none;
     color: #111;
-    font-size: 13px;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -242,7 +243,8 @@ tbody tr td:first-child span {
     border: 2px solid white;
 }
 
-tbody tr td:last-child a{
+tbody tr td:last-child a,
+.table-container > a {
     background-color: #FFD300;
     padding: 8px 16px;
     text-decoration: none;
@@ -253,12 +255,14 @@ tbody tr td:last-child a{
     font-weight: 600;
 }
 
+.table-container > a {
+    margin-top: 166px;
+    margin-right: 26px;
+    float: right;
+    
+}
+
 .table-container thead tr th:last-child,
 td:last-child {
     text-align: center;
 }
-
-
-
-
-
