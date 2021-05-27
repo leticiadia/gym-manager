@@ -294,3 +294,34 @@ td:last-child {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
+
+
+/* PAGINATION */
+
+.table-container {
+    display: grid;
+    grid-template: 64px 16px / 1fr;
+}
+
+.table-container .header{
+    margin: 0;
+    align-self: start;
+}
+
+.table-container .pagination{
+    margin: 0;
+    align-self: end;
+    justify-self: center;
+}
+
+.pagination a,
+.pagination span {
+    color: #7159c1;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.pagination a:hover{
+    filter: brightness(0.3);
+    border-bottom: 1px solid #7159c1;
+}
