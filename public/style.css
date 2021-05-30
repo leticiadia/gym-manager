@@ -1,6 +1,10 @@
 /* FONT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 
+:root {
+    --main-color: #7159c1;
+}
+
 /* GLOBAL */
 *{
     margin: 0;
@@ -15,7 +19,7 @@ body{
 
 
 header{
-    background-color: #7159c1;
+    background-color: var(--main-color);
     width: 100%;
     padding: 32px;
     text-align: center;
@@ -171,7 +175,7 @@ input::placeholder{
 button[type="submit"], 
 a.button {
     padding: 8px 32px;
-    background-color: #7159c1;
+    background-color: var(--main-color);
     border-radius: 4px;
     margin-top: 16px;
     width: 100%;
@@ -245,7 +249,7 @@ tbody tr td:first-child span {
 
 tbody tr td:last-child a,
 .table-container > a {
-    background-color:  #7159c1;
+    background-color:  var(--main-color);
     padding: 8px 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -316,12 +320,12 @@ td:last-child {
 
 .pagination a,
 .pagination span {
-    color: #7159c1;
+    color: var(--main-color);
     text-decoration: none;
     margin-right: 16px;
 }
 
 .pagination a:hover{
     filter: brightness(0.3);
-    border-bottom: 1px solid #7159c1;
+    border-bottom: 1px solid var(--main-color);
 }
